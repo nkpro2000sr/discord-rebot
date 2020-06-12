@@ -7,7 +7,7 @@ status](https://readthedocs.org/projects/discord-rebot/badge/?version=latest&sty
 [![Code style:
 black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) <!--
 [![Downloads](https://pepy.tech/badge/discord-rebot/month)](https://pepy.tech/project/discord-rebot/month)-->
-<a href="https://tox.readthedocs.io">
+<a href="https://discord-rebot.readthedocs.io">
     <img src="https://raw.githubusercontent.com/nkpro2000sr/discord-rebot/master/docs/_static/img/discordRebot.png"
          alt="discord-rebot logo"
          height="200px"
@@ -24,7 +24,7 @@ with **authorization**.
 ## Why discordRebot?
 
 **discordRebot** is easy to use, minimal, and async ready framework
-using [discord.py](https://discordpy.readthedocs.io/en/latest)
+using [discord.py](https://discordpy.readthedocs.io/en/latest "discord.py Documentation")
 
 Most of the bots uses a single prefix, string to match command and args
 split by spaces, example `!cmd arg1 arg2`.
@@ -59,9 +59,9 @@ You can find more examples in the examples directory.
 ## Features
 
 *   It also supports  
-    *   [generators](https://wiki.python.org/moin/Generators)  
-    *   [asynchronousfunctions](https://docs.python.org/library/asyncio.html)  
-    *   [asynchronousgenerators](https://www.python.org/dev/peps/pep-0525)  
+    *   [generators](https://wiki.python.org/moin/Generators "About Generators")  
+    *   [asynchronousfunctions](https://docs.python.org/library/asyncio.html "About Asynchronous Functions")  
+    *   [asynchronousgenerators](https://www.python.org/dev/peps/pep-0525 "About Asynchronous Generators")  
     ##### Example:
     ```python3
     @key(re.compile(r"^!ticker (\d*) (\d*)$"))
@@ -105,8 +105,8 @@ You can find more examples in the examples directory.
     ```
 
 ## Links
-* [Documentation](https://discordRebot.readthedocs.io/en/latest/)
-* [PyPi](https://pypi.org/project/discord-rebot/)
+* [Documentation](https://discord-rebot.readthedocs.io/en/latest/ "discord-rebot.rtfd.io")
+* [PyPi](https://pypi.org/project/discord-rebot/ "pip install discord-rebot")
 
 </br></br>
-<sup> [discordpy-ext-rebot](https://github.com/nkpro2000sr/discordpy-ext-rebot) comming soon (for full featured Discord Bot with RegEx based argparser) </sup>
+<sup> [discordpy-ext-rebot](https://github.com/nkpro2000sr/discordpy-ext-rebot "does not exist yet") comming soon (for full featured Discord Bot with RegEx based argparser) </sup>
