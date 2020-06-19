@@ -78,7 +78,7 @@ You can find more examples in the examples directory.
     *   user\_name example:`'user#1234'`  
     *   roles server *(not applicable for DM)*  
     *   permissions of members in server *(not applicable for DM)*  
-    *   custom **Callable[[author], bool]**  
+    *   custom **Callable[[message], bool]**  
     ##### Example:
     ```python3
     @key("am i authorized ?")
@@ -109,4 +109,4 @@ You can find more examples in the examples directory.
 * [PyPi](https://pypi.org/project/discord-rebot/ "pip install discord-rebot")
 
 </br></br>
-<sup> [discordpy-ext-rebot](https://github.com/nkpro2000sr/discordpy-ext-rebot "does not exist yet") comming soon (for full featured Discord Bot with RegEx based argparser) </sup>
+<sup> [discord-reargparse](https://github.com/nkpro2000sr/discord-reargparse) (for full featured Discord Bot with RegEx based argparsing in commands) </sup>

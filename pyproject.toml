@@ -3,8 +3,8 @@ name = "discord-rebot"
 version = "0.0.2"
 description = "RegEx based command mapping discord BOT framework with authorization"
 license = "MIT"
-authors = ["nkpro2000sr <srnaveen2k@yahoo.com>"]
-maintainers = ["nkpro2000sr <srnaveen2k@yahoo.com>"]
+authors = ["Naveen S R <srnaveen2k@yahoo.com>"]
+maintainers = ["Naveen S R <srnaveen2k@yahoo.com>"]
 readme = "README.md"
 repository = "https://github.com/nkpro2000sr/discord-rebot"
 documentation = "https://discord-rebot.readthedocs.io/en/latest/"
@@ -16,6 +16,7 @@ keywords = ["discord","rebot","regex","tryrebot"]
 [tool.poetry.dependencies]
 python = "^3.8"
 "discord.py" = "^1.3.3"
+nest-asyncio = "^1.3.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.4.2"

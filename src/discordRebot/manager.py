@@ -29,7 +29,7 @@ Auth = Union[
     MemberIdentity,
     Set[MemberIdentity],
     Sequence[MemberIdentity],
-    Callable[[Author], bool],
+    Callable[[Message], bool],
 ]
 
 
